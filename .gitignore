@@ -205,3 +205,41 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pipenv
+Pipfile.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs & temp
+*.log
+*.tmp
+
+# Media files (optional)
+*.mp4
+*.avi
+*.mov
+videos/
+
+# Office temp files
+~$*.docx
